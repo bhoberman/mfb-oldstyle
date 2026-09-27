@@ -29368,7 +29368,7 @@ instanceInterpolations = {
 m01 = 1;
 };
 isBold = 1;
-linkStyle = "MFB Oldstyle";
+linkStyle = Regular;
 name = Bold;
 weightClass = 700;
 }
