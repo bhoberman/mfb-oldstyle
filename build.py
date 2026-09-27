@@ -12,6 +12,7 @@ from zipfile import ZipFile, ZIP_DEFLATED
 from fontmake.font_project import FontProject
 
 OUT = Path("fonts")
+OUT.mkdir(parents=True, exist_ok=True)
 
 # Regular has no instances in its source, so it is built from the master.
 # Bold and Italic are built from their instances, which carry the
